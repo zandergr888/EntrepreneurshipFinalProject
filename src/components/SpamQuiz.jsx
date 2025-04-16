@@ -4,24 +4,24 @@ import tollViolationExample from '../assets/toll-violation-example.png';
 
 const questions = [
   {
-    question: "When assisting elderly residents, should you be concerned if they receive messages demanding immediate action for financial matters?",
+    question: "Yes or no? Should you be concerned when a random text message contains a sense of urgency? Especially for financial matters",
     correctAnswer: true,
-    explanation: "Yes - scammers often create a false sense of urgency to pressure elderly individuals into making quick decisions. Always encourage residents to take their time and verify such requests."
+    explanation: "Yes-scammers often create a false sense of urgency to pressure elderly individuals into making quick decisions. We need to help our sweet elderly here"
   },
   {
-    question: "If a resident shows you an email from their bank with slight misspellings (like 'B@nkofAmerica'), should you help them respond?",
+    question: "Lets say a resident shows you an email from their bank or a big company with slight misspellings (like 'B@nkofAmerica' or 'amaz0n'), should you help them respond?",
     correctAnswer: false,
-    explanation: "Never help residents respond to such emails. Banks never use misspelled domains. This is a common tactic scammers use to trick elderly individuals who might not notice small spelling differences."
+    explanation: "NEVER help residents respond to such emails. Banks/big companies never use misspelled domains. You can also make sure by checking the actual website"
   },
   {
-    question: "Should you encourage residents to verify unexpected requests by calling their family members, even if the email claims to be from them?",
+    question: "Lets say a resident got a phone call that seems like its there little nephew, but it actulaly isn't their phone number (true story). Should the resident verify this?",
     correctAnswer: true,
-    explanation: "Always encourage residents to verify unexpected requests through a known phone number, even if the message appears to be from family. Scammers often impersonate loved ones to exploit trust."
+    explanation: "ALWAYS encourage residents to verify unexpected requests through a known phone number, even if the message appears to be from family. Scammers often impersonate loved ones to exploit trust."
   },
   {
     question: "Is it okay to help residents click on links in urgent messages if they're worried about missing an important payment?",
     correctAnswer: false,
-    explanation: "Never help residents click on links in urgent messages about payments. Instead, help them locate the official contact information for the organization and verify the request through proper channels."
+    explanation: " NEVER, NEVER, NEVER help residents click on links in urgent messages about payments. Especially if there is an urgency in them"
   }
 ];
 
@@ -30,12 +30,12 @@ const finalTest = {
   question: "A resident shows you this text message about an unpaid toll. What would you do?",
   options: [
     {
-      text: "Help them click the link to pay quickly",
+      text: "Pay",
       isCorrect: false,
       feedback: "This is a scam message. Never help residents click on suspicious links, even if the message seems urgent."
     },
     {
-      text: "Help them contact their state's official toll authority through their official website or phone number",
+      text: "Contact their state's official toll service through their officail phone number or website. Usually, a .gov website",
       isCorrect: true,
       feedback: "Correct! Always help residents verify such claims through official channels. This message shows multiple red flags: urgent tone, suspicious link, and threats."
     }

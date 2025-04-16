@@ -6,14 +6,13 @@ function App() {
     <div className="app">
       <header>
         <h1>Spam Safety Training for Senior Care Staff</h1>
-        <p>Learn how to protect elderly residents from common scams and fraudulent messages</p>
+        <p>Protecting our beloved elderly people by training staff for senior centers</p>
         <div className="subtitle">
           <p>This training will help you:</p>
           <ul>
-            <li>Identify common scam tactics targeting seniors</li>
-            <li>Learn appropriate responses to suspicious messages</li>
-            <li>Guide residents in safe communication practices</li>
-            <li>Protect residents from financial fraud</li>
+            <li>Identify common scam tactics targeting our beloved seniors</li>
+            <li>Learn to come up with responses to suspicious messages for our beloved seniors</li>
+            <li>Protect residents from financial fraud - has happened a lot in the past</li>
           </ul>
         </div>
       </header>
