@@ -14,14 +14,14 @@ const questions = [
     explanation: "NEVER help residents respond to such emails. Banks/big companies never use misspelled domains. You can also make sure by checking the actual website"
   },
   {
-    question: "Lets say a resident got a phone call that seems like its there little nephew, but it actulaly isn't their phone number (true story). Should the resident verify this?",
+    question: "Lets say a resident got a phone call that seems like its their grandson, but the phone number is not saved. Should the resident verify this?",
     correctAnswer: true,
     explanation: "ALWAYS encourage residents to verify unexpected requests through a known phone number, even if the message appears to be from family. Scammers often impersonate loved ones to exploit trust."
   },
   {
-    question: "Is it okay to help residents click on links in urgent messages if they're worried about missing an important payment?",
+    question: "Should you help residents immediately pay for something with a message that sounds very urgent about a payment?",
     correctAnswer: false,
-    explanation: " NEVER, NEVER, NEVER help residents click on links in urgent messages about payments. Especially if there is an urgency in them"
+    explanation: "You shouldn't immediately pay. Verify the source to see if it is a legitimate source. Look for links that have https or are trusted like .gov links"
   }
 ];
 
